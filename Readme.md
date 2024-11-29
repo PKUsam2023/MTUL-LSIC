@@ -26,7 +26,6 @@
   - [Get topo feature](#get-topo-feature)
   - [License](#license)
   - [Citation](#citation)
-  - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -112,6 +111,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you use this code or the pre-trained models in your work, please cite our work. 
 - Dong Chen, Bingxu Wang, Shunning Li, Wentao Zhang, Kai Yang, Yongli Song, Guo-Wei Wei and Feng Pan. "MTUL-LSIC: Multiscale topology-informed unsupervised learning for Superionic Ionic Conductors."
-
----# MTUL-LSIC
-# MTUL-LSIC
