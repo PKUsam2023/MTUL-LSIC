@@ -67,6 +67,3 @@ def cli_main():
 if __name__ == "__main__":
     cli_main()
     print('End!')
-    # python affinity_propagation.py --filenames ../top_simi_stru.csv --save_dirname ./ --max_iteration 10000
-    # python affinity_propagation.py --filenames ../top_simi_stru_from_uc_list.csv --save_dirname ./ --max_iteration 10000
-    # python affinity_propagation.py --filenames ../top_simi_stru_from_uc_list_same.csv --save_dirname ./ --max_iteration 10000   # finally 32 is the best
