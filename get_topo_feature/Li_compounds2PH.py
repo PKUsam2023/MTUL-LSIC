@@ -320,6 +320,3 @@ def cli_main():
 if __name__ == "__main__":
     cli_main()
     print('End!')
-
-# from poscar
-# from cif
