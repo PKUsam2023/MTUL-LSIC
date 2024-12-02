@@ -108,11 +108,9 @@ class generate_feature(object):
 
     def bar2feature(self, dgms_data):
         # betti0
-        # persist_vector = self.split_vp(dgms_data[0], self.bins_range, self.max_dis)
         persist_vector = self.statistic_vp(dgms_data[0])
         # betti-1
         bettin_feature = np.array([])
-        # for i in range(1, len(dgms_data)):
         for i in range(1, 2):
             bettin_feature = np.append(bettin_feature, self.statistic_feature(dgms_data[i]))
         out_features = np.append(persist_vector, bettin_feature)  # shape=(max_dis/bins_range+15*1, )
