@@ -182,17 +182,6 @@ class Compounds2PH(object):
         )
         np.save(save_filename, PH_dict)
         print(poscar_filename)
-        # try:
-        #     PH_dict = self.from_poscar(poscar_filename)
-
-        #     save_filename = os.path.join(
-        #         save_dirname,
-        #         os.path.split(poscar_filename)[-1]
-        #     )
-        #     np.save(save_filename, PH_dict)
-        #     print(poscar_filename)
-        # except:
-        #     print('failed', poscar_filename)
 
     def batch_from_poscar(self, poscar_dirname, save_dirname, issues_log):
         log = open(issues_log, 'w')
